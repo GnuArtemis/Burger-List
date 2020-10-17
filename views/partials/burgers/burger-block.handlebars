@@ -1,12 +1,12 @@
-<li>
-    {{burger_name}}
+<li class="valign-wrapper">
+    <span>{{burger_name}}</span>
 
-    <button class="change-devoured" data-id="{{this.id}}" data-newdevoured="{{devoured}}">
+    <button class="change-devoured waves-effect waves-light btn-small" data-id="{{this.id}}" data-newdevoured="{{devoured}}">
         {{#if devoured}}EAT ME!{{else}}Order another?{{/if}}
     </button>
 
 
     
     
-	<button class="delete-burger" data-id="{{this.id}}">No more!</button>
+	<button class="delete-burger waves-effect waves-light btn-small" data-id="{{this.id}}">No more!</button>
 </li>
